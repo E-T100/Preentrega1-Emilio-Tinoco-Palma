@@ -1,0 +1,75 @@
+html,
+body {
+  font-family: sans-serif;
+  height: calc(100% + 150px);
+  margin: 0;
+  padding: 0;
+}
+
+/*
+ * Navbar
+ */
+.navbar-default .navbar-nav li a {
+  color: #1367e4;
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+.navbar {
+  border: 0;
+  border-bottom: solid #1367e4;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+.navbar .navbar-brand {
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/*
+ * Header
+ */
+.header {
+  border: 0;
+  border-bottom: solid #1367e4;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+.header .name {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 35px;
+}
+.header .description {
+  font-size: 20px;
+  margin-top: 3px;
+}
+.header .links {
+  margin-top: 25px;
+}
+.header .links a {
+  color: #1367e4;
+  font-size: 20px;
+  font-weight: lighter;
+  margin: 0 10px;
+}
+
+/*
+ * Content
+ */
+.content {
+  margin-top: 30px;
+}
+.content h1 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.content p {
+  font-size: 18px;
+  line-height: 1.95;
+  text-align: justify;
+}
